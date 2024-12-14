@@ -10,7 +10,7 @@ while contador < limite:
     #Cuenta la cantidad de respuestas
     contador += 1
     #compara si la respuesta es correcta y si es correcta, imprime un mensaje en pantalla y rompe el bucle, de lo contrario vuelve a intentarlo hasta que acaba el bucle
-    if respuesta in Palabra:  # Compara si la respuesta está en la lista
+    if respuesta in Palabra:
         print("La respuesta es correcta.")
         break
 #Imprime mensje si no logro contestar en los intentos permitidos
