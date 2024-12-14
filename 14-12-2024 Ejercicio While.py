@@ -15,7 +15,7 @@ Palabra = "Trasnocharse"
 contador=0
 limite=3
 while contador<limite:
-    respuesta = input("¿Qué es lo que se hace de noche, que no se puede hacer de día?, Cúal sería la respuesta: ")
+    respuesta = input("Adivinanza:\n¿Qué es lo que se hace de noche, que no se puede hacer de día?\n")
     contador += 1
     if respuesta == Palabra:
         print("La respuesta es correcta.")
