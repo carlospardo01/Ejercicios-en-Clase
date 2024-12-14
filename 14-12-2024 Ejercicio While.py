@@ -11,7 +11,7 @@
 #    print("Lo siento, perdiste")
 
 
-Palabra= ["Trasnocharse","trasnocharse"]
+Palabra = "Trasnocharse"
 contador=0
 limite=3
 while contador<limite:
