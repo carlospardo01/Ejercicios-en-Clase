@@ -13,6 +13,6 @@ while contador < limite:
     if respuesta in Palabra:
         print("La respuesta es correcta.")
         break
-#Imprime mensje si no logro contestar en los intentos permitidos.
+#Imprime mensaje si no logro contestar en los intentos permitidos.
 else:
     print("Lo siento, sigue intentando, la respuesta es: Trasnocharse")
