@@ -1,15 +1,3 @@
-#numero=9
-#contador=0
-#limite=3
-#while contador<limite:
-#    respuesta = int(input("Digita un número: "))
-#    contador += 1
-#    if respuesta == numero:
-#        print("Felicidades, Ganaste!")
-#        break
-#else:
-#    print("Lo siento, perdiste")
-
 #Lista con las respuestas correctas
 Palabra = ["Trasnocharse", "trasnocharse"]
 #Contador y límite de intentos
