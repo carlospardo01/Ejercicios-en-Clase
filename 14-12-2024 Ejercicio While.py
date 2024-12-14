@@ -15,4 +15,4 @@ while contador < limite:
         break
 #Imprime mensaje si no logro contestar en los intentos permitidos.
 else:
-    print("Lo siento, sigue intentando, la respuesta es: Trasnocharse")
+    print("Lo siento, la respuesta es: Trasnocharse")
