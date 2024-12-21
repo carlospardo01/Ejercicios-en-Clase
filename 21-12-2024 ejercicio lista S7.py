@@ -52,3 +52,50 @@ d1 = dict([
     ('José','Estado de México')
 ])
 print(d1)
+### Ejercicio 4 - Ejercicio para calmar la ansiedad ###
+#Se imprime mensaje en pantalla
+print("Bienvenido a tu acompañamiento durante este proceso de ansiedad")
+print("Vamos a enumerar cosas que pueden percibir tus sentidos")
+#Creación de listas para que ahí se almacenen los elementos
+#Contexto del ejercicio:
+# 5 cosas que se puedan ver
+# 4 cosas que se puedan escuchar
+#3 cosas que se pueda saborear
+#2 cosas que se puedan oler
+#1 cosa que se pueda tocar
+Vista =[]
+Oido = []
+Gusto =[]
+Olfato = []
+Tacto = []
+#Pedir al usuario que enumere las cosas para cada sentido
+print("Piensa en 5 cosas que puedes ver")
+for i in range(5):
+    item = input(f"Elemento {i+1}: ")
+    Vista.append(item)
+
+print("\nPiensa en 4 cosas que puedes escuchar")
+for i in range(4):
+    item = input(f"Elemento {i+1}: ")
+    Oido.append(item)
+
+print("\nPiensa en 3 cosas que puedes saborear")
+for i in range(3):
+    item = input(f"Elemento {i+1}: ")
+    Gusto.append(item)
+
+print("\nPiensa en 2 cosas que puedes oler")
+for i in range(2):
+    item = input(f"Elemento {i+1}: ")
+    Olfato.append(item)
+
+print("\nPiensa en 1 cosas que puedes tocar")
+for i in range(1):
+    item = input(f"Elemento {i+1}: ")
+    Tacto.append(item)
+
+print("\nPuedes Ver: ",Vista)
+print("\nPuedes Escuchar: ",Oido)
+print("\nPuedes Saborear: ",Gusto)
+print("\nPuedes Oler: ",Olfato)
+print("\nPuedes Tocar: ",Tacto)
